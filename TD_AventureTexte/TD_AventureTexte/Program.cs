@@ -52,11 +52,9 @@ namespace TD_AventureTexte {
                 if ((readLine = Console.ReadLine()) != null) {
                     if (readLine.ToLower() == "gauche") {
                         Console.WriteLine("Vous tombez sur les gardes et vous perdez");
-                        Environment.Exit(0);
                     }
                     else if (readLine.ToLower() == "droite") {
                         Console.WriteLine("Vous trouvez la princesse et vous la sauvez");
-                        Environment.Exit(0);
                     }
                 }
             }
